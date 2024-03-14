@@ -1,0 +1,26 @@
+{
+	"geode": "2.0.0",
+	"version": "v1.0.0",
+	"id": "relative.gdps-switcher",
+	"name": "Tiny GDPS Switcher",
+	"developer": "relative",
+	"description": "Changes base host to the GDPS Emulator one.",
+	"gd": {
+		"android": "*",
+		"win": "2.204"
+	},
+	"settings": {
+		"enabled": {
+			"name": "Enable",
+			"description": "Enables the switcher",
+			"type": "bool",
+			"default": true
+		},
+		"address": {
+			"name": "Address",
+			"description": "Address of the GDPS Emulator",
+			"type": "string",
+			"default": "http://www.boomlings.com/database"
+		}
+	}
+}
