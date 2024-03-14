@@ -1,8 +1,8 @@
 {
 	"geode": "2.0.0",
-	"version": "v1.0.0",
+	"version": "v1.0.101",
 	"id": "relative.gdps-switcher",
-	"name": "Tiny GDPS Switcher",
+	"name": "Tiny GDPS Switcher for Rostadash",
 	"developer": "relative",
 	"description": "Changes base host to the GDPS Emulator one.",
 	"gd": {
@@ -12,15 +12,15 @@
 	"settings": {
 		"enabled": {
 			"name": "Enable",
-			"description": "Enables the switcher",
+			"description": "Enables the switcher.",
 			"type": "bool",
 			"default": true
 		},
 		"address": {
-			"name": "Address",
-			"description": "Address of the GDPS Emulator",
+			"name": "Config file",
+			"description": "Config file with an address of the GDPS Emulator.",
 			"type": "string",
-			"default": "http://www.boomlings.com/database"
+			"default": "https://rugd.gofruit.space/01Oh/db"
 		}
 	}
 }
